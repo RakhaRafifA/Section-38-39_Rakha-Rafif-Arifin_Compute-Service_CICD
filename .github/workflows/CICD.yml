@@ -34,8 +34,8 @@ jobs:
         username: ${{ secrets.USERNAME_DOCKER_HUB }}
         password: ${{ secrets. PASSWORD_DOCKER_HUB }}
     
-    #AWS Deploy
-     
+    #AWS Deploy 
+
     - name: Deploy Using SSH
       uses: appleboy/ssh-action@master
       with:
